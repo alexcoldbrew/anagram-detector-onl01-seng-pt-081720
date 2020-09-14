@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(array)
-    array.each do |new_word|
+    array.select do |new_word|
       
       @word.split("")
       new_word.split("")
